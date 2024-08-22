@@ -1,0 +1,401 @@
+
+@font-face {
+    font-family: LevenimBold;
+    src: url("./Fonte/levenim-mt-bold.ttf");
+}
+
+@font-face {
+    font-family: Levenim;
+    src: url("./Fonte/levenim-mt-2.ttf");
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(249, 241, 254, 1);
+}
+
+.container{
+    top: 0.1px;
+    position: sticky;
+    background-color: rgb(249, 241, 254, 0.76);
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    font-family: LevenimBold;
+}
+
+.menu{
+    align-items: center;
+    margin-right: 80px;
+    padding-top: 10px;
+}
+
+nav{
+    width: 50%;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.entrar{
+    background-color: rgba(56,36,105,1);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: LevenimBold;
+}
+
+.viajou{
+    width: 120px;
+    padding-left: 20px;
+}
+
+.tela{
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo{
+    font-family: LevenimBold;
+}
+
+.titulo > .sj{
+    color: rgba(56,36,105,1);
+    font-size: 76px;
+    width: 500px;
+    padding-top: 40px;
+    margin: 10px;
+}
+
+.titulo > .subtitulo{
+    color: gray;
+    padding-left: 15px;
+    width: 490px;
+}
+
+.tela > img{
+    padding-right: 50px;
+    padding-right: 100px;
+    width: 500px;
+    height: 550px;
+}
+
+.comecar{
+    background-color: rgba(56,36,105,1);
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 120px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: LevenimBold;
+}
+.container_bloco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bloco{
+    background-color: aquamarine;
+    border-radius: 10px;
+    height: 250px;
+    width: 1400px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.bloco > h5{
+    font-size: 30px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: LevenimBold;
+}
+
+.bloco > .subtitulo{
+    font-size: 23px;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 20px;
+    width: 280px;
+    font-family: Levenim;
+}
+
+.botoes{
+    display: flex;
+    font-size: 16px;
+}
+
+.botoes > .botao{
+    background-color: white;
+    height: 25px;
+    width: 100px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.botoes > .botao2{
+    background-color: white;
+    height: 25px;
+    width: 100px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.equipe{
+    background-color: rgb(223, 222, 222);
+    height: 800px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: LevenimBold;
+}
+
+.func{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: LevenimBold;
+}
+
+.equipe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.missao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.missao > .texto{
+    text-align: center;
+}
+
+.missao > .texto > h6{
+    font-family: LevenimBold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.missao > .texto > p{
+    font-family: Levenim;
+    font-size: 25px;
+    width: 700px;
+}
+
+.cont_tela{
+    
+}
+
+.aviao{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aviao > img{
+    top: 120px;
+    margin-left: 150px;
+    height: 1600px;
+}
+
+.cont_telaIn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont_telaIn > img{
+    margin-right: 0px;
+}
+
+.cont_telaIn{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.texto{
+    padding-top: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.texto > h6{
+    font-size: 30px;
+    font-family: LevenimBold;
+    margin-bottom: 5px;
+}
+
+.texto > p{
+    font-size: 25px;
+    font-family: Levenim;
+    width: 500px;
+}
+
+.cont_telaIn2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 200px;
+    height: 1000px;
+}
+
+.cont_telaIn2 > img{
+    padding-top: 100px;
+}
+
+
+.texto2{
+    padding-top: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.texto2 > h6{
+    font-size: 30px;
+    font-family: LevenimBold;
+    margin-bottom: 5px;
+}
+
+.texto2 > p{
+    font-size: 25px;
+    font-family: Levenim;
+    width: 500px;
+}
+
+.funcionalidades{
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+
+.container_func{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bloco_func{
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    height: 200px;
+    width: 250px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bloco_func:hover{
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s;
+}
+
+.circulo{
+    background-color: aquamarine;
+    color: aquamarine;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+}
+
+.bloco_func > h6{
+    font-size: 20px;
+    font-family: LevenimBold;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.bloco_func > p{
+    font-size: 16px;
+    font-family: Levenim;
+    margin-top: 0px;
+}
+
+.exper_viagem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.titulo2{
+    font-family: LevenimBold;
+    margin-right: 100px;
+}
+
+.titulo2 > h6{
+    color: rgba(56,36,105,1);
+    font-size: 50px;
+    width: 500px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.titulo2 > p{
+    color: gray;
+    padding-left: 15px;
+    width: 490px;
+    margin-left: 50px;
+}
+
+.exper_viagem > img{
+    padding-right: 200px;
+    padding-right: 100px;
+    width: 700px;
+    height: 650px;
+    padding-right: 0px;
+    padding: 20px;
+    padding-top: 120px;
+}
+
+.opc1{
+    display: flex;
+}
+
+.opc1 > img{
+    margin-left: 60px;
+    padding-top: 15px;
+    height: 70px;
+
+}
+
+.opc2 > img{
+    margin-left: 60px;
+    padding-top: 15px;
+    height: 70px;
+
+}
+
+.opc3 > img{
+    margin-left: 60px;
+    padding-top: 15px;
+    height: 70px;
+
+}
